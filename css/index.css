@@ -14,7 +14,7 @@
     font-size: 33px;
     letter-spacing: -0.06em;
 }
-  
+
 
 .header a {
     color: #1b1b1b;
@@ -23,26 +23,27 @@
     font-size: 32px;
     text-decoration: none;
 }
-    
+
 .header a:hover {
     text-decoration: none;
     background-color: #ddd;
     color: #1b1b1b;
 }
-  
+
 .header .header-right {
     line-height: 0%;
     display: inherit;
     font-weight: 500;
     background-color: white;
 }
+
 /* /HEADER */
-  
+
 /* BANNER */
 .banner {
     display: flex;
-    background-color: white;  
-    letter-spacing: 0.085em;   
+    background-color: white;
+    letter-spacing: 0.085em;
     font-weight: 500;
 }
 
@@ -63,14 +64,17 @@
 }
 
 .banner .image img {
-    max-width: 100%; height: auto;
+    max-width: 100%;
+    height: auto;
 }
+
 .banner .arrow-image {
     float: right;
 }
 
 .banner .arrow-image img {
-    max-width: 100%; height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 /* /BANNER */
@@ -88,7 +92,8 @@
 }
 
 .resume .image img {
-    max-width: 100%; height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .resume .item-1 {
@@ -109,14 +114,14 @@
 
     padding-top: 4.5rem;
     padding-bottom: 3rem;
-} 
+}
 
 .resume .more-info {
     background-color: white;
     border-radius: 50px;
 }
 
-.resume .more-info div{
+.resume .more-info div {
     padding: 0.4rem;
 
     font-family: 'Kanit', sans-serif;
@@ -125,6 +130,7 @@
     text-align: center;
     letter-spacing: 0.17em;
 }
+
 /* /RESUME */
 
 /* RECENT PROJECTS */
@@ -159,15 +165,17 @@
 }
 
 .recent-projects .projects div {
-    max-width: 100%; height: auto;
+    max-width: 100%;
+    height: auto;
 }
+
 /* /RECENT PROJECTS */
 
 /* FOOTER */
 .footer {
     display: flex;
-    background-color: white;  
-    
+    background-color: white;
+
 }
 
 .footer .text {
@@ -187,166 +195,180 @@
     display: flex;
     flex-flow: column-reverse;
 }
+
 /* /FOOTER */
 
 /* TABLET */
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
-/* HEADER */
-.header .logo {
-    font-size: 17px;
-}
-  
-.header a {
-    font-size: 15px;
-} 
-/* /HEADER */
-  
-/* BANNER */
-.banner .item-1 {
-    font-size: 67px;
-    line-height: 66px;
+
+    /* HEADER */
+    .header .logo {
+        font-size: 17px;
+    }
+
+    .header a {
+        font-size: 15px;
+    }
+
+    /* /HEADER */
+
+    /* BANNER */
+    .banner .item-1 {
+        font-size: 67px;
+        line-height: 66px;
+    }
+
+    .banner .item-2 {
+        line-height: 66px;
+        font-size: 52px;
+    }
+
+    .banner .image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* /BANNER */
+
+    /* RESUME */
+    .resume {
+        padding-top: 4.5rem;
+        padding-bottom: 6rem;
+    }
+
+    .resume .image {
+        padding-top: 6rem;
+    }
+
+    .resume .item-1 {
+        font-size: 30px;
+    }
+
+    .resume .item-2 {
+        font-size: 17px;
+        padding-top: 2rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .resume .more-info div {
+        font-size: 10px;
+    }
+
+    /* /RESUME */
+
+    /* RECENT PROJECTS */
+    .recent-projects {
+        font-size: 64px;
+        line-height: 68px;
+    }
+
+    .recent-projects .projects {
+        padding-top: 4rem;
+        padding-bottom: 10rem;
+    }
+
+    .recent-projects .projects div {
+        background-color: white;
+        width: 11.75rem;
+        height: 12.375rem;
+    }
+
+    /* /RECENT PROJECTS */
+
+    /* FOOTER */
+    .footer .text {
+        font-size: 10px;
+    }
+
+    /* /FOOTER */
 }
 
-.banner .item-2 {
-    line-height: 66px;
-    font-size: 52px;
-}
-
-.banner .image img {
-    max-width: 100%; height: auto;
-}
-/* /BANNER */
-
-/* RESUME */
-.resume {
-    padding-top: 4.5rem;
-    padding-bottom: 6rem;
-}
-
-.resume .image {
-    padding-top: 6rem;
-}
-
-.resume .item-1 {
-    font-size: 30px;
-}
-
-.resume .item-2 {
-    font-size: 17px;
-    padding-top: 2rem;
-    padding-bottom: 1.5rem;
-} 
-
-.resume .more-info div{
-    font-size: 10px;
-}
-/* /RESUME */
-
-/* RECENT PROJECTS */
-.recent-projects {
-    font-size: 64px;
-    line-height: 68px;
-}
-
-.recent-projects .projects {
-    padding-top: 4rem;
-    padding-bottom: 10rem;
-}
-
-.recent-projects .projects div {
-    background-color: white;
-    width: 11.75rem;
-    height: 12.375rem;
-}
-/* /RECENT PROJECTS */
-
-/* FOOTER */
-.footer .text {
-    font-size: 10px;
-}
-/* /FOOTER */
-}
 /* /TABLET */
 
 /* MOBILE */
 @media only screen and (max-width: 765px) {
-/* HEADER */
-.header .logo {
-    font-size: 9px;
-}
-  
-.header a {
-    padding: 0.4rem;
-    font-size: 7px;
-}
-/* /HEADER */
-  
-/* BANNER */
-.banner .item-1 {
-    font-size: 43px;
-    line-height: 44px;
+
+    /* HEADER */
+    .header .logo {
+        font-size: 9px;
+    }
+
+    .header a {
+        padding: 0.4rem;
+        font-size: 7px;
+    }
+
+    /* /HEADER */
+
+    /* BANNER */
+    .banner .item-1 {
+        font-size: 43px;
+        line-height: 44px;
+    }
+
+    .banner .item-2 {
+        line-height: 44px;
+        font-size: 35px;
+    }
+
+    .banner .image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* /BANNER */
+
+    /* RESUME */
+    .resume {
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+    }
+
+    .resume .image {
+        padding-top: 4.45rem;
+    }
+
+    .resume .item-1 {
+        font-size: 19px;
+    }
+
+    .resume .item-2 {
+        padding-top: 0.5rem;
+        padding-bottom: 1.5rem;
+        font-size: 9px;
+    }
+
+    .resume .more-info div {
+        font-size: 4px;
+    }
+
+    /* /RESUME */
+
+    /* RECENT PROJECTS */
+    .recent-projects {
+        font-size: 41px;
+        line-height: 45px;
+    }
+
+    .recent-projects .projects {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    .recent-projects .projects div {
+        background-color: white;
+        width: 5.6875rem;
+        height: 5.9375rem;
+    }
+
+    /* /RECENT PROJECTS */
+
+    /* FOOTER */
+    .footer .text {
+        font-size: 5px;
+    }
+
+    /* /FOOTER */
 }
 
-.banner .item-2 {
-    line-height: 44px;
-    font-size: 35px;
-}
-
-.banner .image img {
-    max-width: 100%; height: auto;
-}
-/* /BANNER */
-
-/* RESUME */
-.resume {
-    padding-top: 3rem;
-    padding-bottom: 4rem;
-}
-
-.resume .image {
-    padding-top: 4.45rem;
-}
-
-.resume .item-1 {
-    font-size: 19px;
-}
-
-.resume .item-2 {
-    padding-top: 0.5rem;
-    padding-bottom: 1.5rem;
-    font-size: 9px;
-} 
-
-.resume .more-info div{
-    font-size: 4px;
-}
-/* /RESUME */
-
-/* RECENT PROJECTS */
-.recent-projects {
-    font-size: 41px;
-    line-height: 45px;
-}
-
-.recent-projects .projects {
-    padding-top: 2rem;
-    padding-bottom: 3rem;
-}
-
-.recent-projects .projects div {
-    background-color: white;
-    width: 5.6875rem;
-    height: 5.9375rem;
-}
-/* /RECENT PROJECTS */
-
-/* FOOTER */
-.footer .text {
-    font-size: 5px;
-}
-/* /FOOTER */
-}
 /* /MOBILE */
-
-
-

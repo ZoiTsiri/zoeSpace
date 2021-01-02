@@ -1,0 +1,220 @@
+/* HEADER */
+.header {
+    display: flex;
+
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.header .logo {
+    font-weight: 700;
+    font-size: 33px;
+    letter-spacing: -0.06em;
+}
+
+
+.header a {
+    color: #1b1b1b;
+    padding: 1rem;
+    border-radius: 4px;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: none;
+    background-color: #ddd;
+    color: #1b1b1b;
+}
+
+.header .header-right {
+    line-height: 0%;
+    display: inherit;
+    font-weight: 500;
+    background-color: white;
+}
+
+/* /HEADER */
+/* BANNER */
+.banner {
+    display: flex;
+    background-color: white;
+    letter-spacing: 0.085em;
+    font-weight: 500;
+}
+
+.banner .item-1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 145px;
+    line-height: 124px;
+    color: #1b1b1b;
+    float: right;
+}
+
+.banner .item-2 {
+    font-family: 'Kanit', sans-serif;
+    line-height: 124px;
+    font-size: 145px;
+    color: white;
+    -webkit-text-stroke: 2px #1b1b1b;
+    float: right;
+}
+
+/* /BANNER */
+/* PROJECT1 */
+.text-project1 .item-1 {
+    font-family: 'Kanit', sans-serif;
+    color: #1b1b1b;
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: -0.045em;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.text-project1 .item-2 {
+    font-family: 'Kanit', sans-serif;
+    color: #1b1b1b;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+
+}
+
+.text-project1 .item-3 {
+    font-family: 'Kanit', sans-serif;
+    color: #1b1b1b;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.11em;
+}
+
+/* /PROJECT1 */
+
+/* PROJECT2 */
+
+.text-project2 .item-1 {
+    font-family: 'Kanit', sans-serif;
+    color: #1b1b1b;
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: -0.045em;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+
+}
+
+.text-project2 .item-2 {
+    font-family: 'Kanit', sans-serif;
+    color: #1b1b1b;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+   
+}
+
+.text-project2 .item-3 {
+    font-family: 'Kanit', sans-serif;
+    color: #1b1b1b;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.11em;
+  
+
+
+/* /PROJECT2 */
+
+/* PROJECT3 */
+.text-project3 .item-1 {
+    font-family: 'Kanit', sans-serif;
+    color: #1b1b1b;
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: -0.045em;
+    line-height: 75px;
+   
+
+}
+
+.text-project3 .item-2 {
+    font-family: 'Kanit', sans-serif;
+    color: #1b1b1b;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+ 
+
+}
+
+.text-project3 .item-3 {
+    font-family: 'Kanit', sans-serif;
+    color: #1b1b1b;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.11em;
+   
+}
+
+/* /PROJECT3 */
+
+/* PROJECT4 */
+.text-project4 .item-1 {
+    font-family: 'Kanit', sans-serif;
+    color: #1b1b1b;
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: -0.045em;
+    line-height: 75px;
+    
+   
+}
+
+.text-project4 .item-2 {
+    font-family: 'Kanit', sans-serif;
+    color: #1b1b1b;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    
+}
+
+.text-project4 .item-3 {
+    font-family: 'Kanit', sans-serif;
+    color: #1b1b1b;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.11em;
+    
+}
+
+/* /PROJECT4 */
+
+
+
+/* FOOTER */
+.footer .text {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: -0.015em;
+    align-self: flex-end;
+}
+
+/* /FOOTER */
