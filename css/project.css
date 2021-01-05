@@ -44,6 +44,7 @@
     background-color: white;
     letter-spacing: 0.085em;
     font-weight: 500;
+    padding-top: 4rem;
 }
 
 .banner .item-1 {
@@ -64,6 +65,21 @@
 }
 
 /* /BANNER */
+
+/* IMAGEPROJECT1 */
+.image-project1 {
+    padding-top: 4rem;
+}
+
+.image-project1 .image-container {
+    border: 1px solid black;
+    width: 100%;
+    height: 20rem;
+}
+
+/* /IMAGEPROJECT1 */
+
+
 /* PROJECT1 */
 .text-project1 .item-1 {
     font-family: 'Kanit', sans-serif;
@@ -99,6 +115,9 @@
 /* /PROJECT1 */
 
 /* PROJECT2 */
+.text-project2 {
+    padding-top: 4rem;
+}
 
 .text-project2 .item-1 {
     font-family: 'Kanit', sans-serif;
@@ -120,7 +139,7 @@
     line-height: 38px;
     letter-spacing: 0.28em;
     text-transform: uppercase;
-   
+
 }
 
 .text-project2 .item-3 {
@@ -130,12 +149,22 @@
     font-size: 14px;
     line-height: 25px;
     letter-spacing: 0.11em;
-  
+}
 
+.text-project2 .image-container {
+    border: 1px solid black;
+    width: 100%;
+    height: 20rem;
+}
 
 /* /PROJECT2 */
 
 /* PROJECT3 */
+
+.text-project3 {
+    padding-top: 4rem;
+}
+
 .text-project3 .item-1 {
     font-family: 'Kanit', sans-serif;
     color: #1b1b1b;
@@ -143,8 +172,18 @@
     font-size: 24px;
     letter-spacing: -0.045em;
     line-height: 75px;
-   
+    display: flex;
+    align-items: center;
 
+}
+
+.text-project3 .item-2 {
+    font-family: 'Kanit', sans-serif;
+    color: #1b1b1b;
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: -0.045em;
+    line-height: 75px;
 }
 
 .text-project3 .item-2 {
@@ -155,7 +194,7 @@
     line-height: 38px;
     letter-spacing: 0.28em;
     text-transform: uppercase;
- 
+
 
 }
 
@@ -166,12 +205,22 @@
     font-size: 14px;
     line-height: 25px;
     letter-spacing: 0.11em;
-   
+
+}
+
+.text-project3 .image-container {
+    border: 1px solid black;
+    width: 100%;
+    height: 20rem;
 }
 
 /* /PROJECT3 */
 
 /* PROJECT4 */
+.text-project4 {
+    padding-top: 4rem;
+}
+
 .text-project4 .item-1 {
     font-family: 'Kanit', sans-serif;
     color: #1b1b1b;
@@ -179,8 +228,6 @@
     font-size: 24px;
     letter-spacing: -0.045em;
     line-height: 75px;
-    
-   
 }
 
 .text-project4 .item-2 {
@@ -191,7 +238,7 @@
     line-height: 38px;
     letter-spacing: 0.28em;
     text-transform: uppercase;
-    
+
 }
 
 .text-project4 .item-3 {
@@ -201,7 +248,14 @@
     font-size: 14px;
     line-height: 25px;
     letter-spacing: 0.11em;
-    
+
+}
+
+
+.text-project4 .image-container {
+    border: 1px solid black;
+    width: 100%;
+    height: 20rem;
 }
 
 /* /PROJECT4 */
@@ -209,6 +263,14 @@
 
 
 /* FOOTER */
+.footer {
+    padding-top: 10rem;
+}
+
+.footer .image-container {
+    text-align: center;
+}
+
 .footer .text {
     font-family: 'Kanit', sans-serif;
     font-weight: 300;
@@ -218,3 +280,439 @@
 }
 
 /* /FOOTER */
+
+/* TABLET */
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+
+    /* HEADER */
+    .header .logo {
+        font-size: 17px;
+    }
+
+    .header a {
+        font-size: 15px;
+    }
+
+    .header .header-right {
+        padding-right: 5rem;
+    }
+
+    /* /HEADER */
+
+    /* BANNER */
+
+    .banner {
+        padding-top: 2rem;
+    }
+
+    .banner .item-1 {
+        font-size: 67px;
+        line-height: 68px;
+        letter-spacing: 0.105em;
+
+    }
+
+    .banner .item-2 {
+        font-size: 67px;
+        line-height: 68px;
+
+        letter-spacing: 0.105em;
+    }
+
+    /* /BANNER */
+
+    /* PROJECTS 1 */
+    .text-project1 .col_4 {
+        width: 83.06%;
+    }
+
+    .image-project1 {
+        padding-top: 1rem;
+    }
+
+    .text-project1 .item-1 {
+        line-height: 50px;
+    }
+
+    .text-project1 .item-2 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.28em;
+    }
+
+    .text-project1 .item-3 {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 25px;
+        letter-spacing: 0.11em;
+    }
+
+
+    /* /PROJECTS 1 */
+
+
+    /* PROJECTS 2 */
+    .text-project2 .col_4 {
+        width: 83.06%;
+    }
+
+    .text-project2 .col_6 {
+        width: 83.06%;
+    }
+
+    .image-project2 {
+        padding-top: 1rem;
+
+    }
+
+    .text-project2 .item-1 {
+        line-height: 50px;
+        padding-left: 3rem;
+
+    }
+
+    .text-project2 .item-2 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.28em;
+        padding-left: 3rem;
+    }
+
+    .text-project2 .item-3 {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 25px;
+        letter-spacing: 0.11em;
+        padding-left: 3rem;
+    }
+
+    /* /PROJECTS 2 */
+
+
+    /* PROJECTS 3 */
+    .text-project3 .image-container {
+        margin-left: -4rem;
+    }
+
+    .text-project3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .text-project3 .col_4 {
+        width: 83.06%;
+        order: 2;
+    }
+
+    .text-project3 .col_6 {
+        width: 83.06%;
+        order: 1;
+    }
+
+    .image-project3 {
+        padding-top: 1rem;
+        grid-column: 10/12;
+    }
+
+    .text-project3 .item-1 {
+        line-height: 50px;
+        padding-left: 3rem;
+
+    }
+
+    .text-project3 .item-2 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.28em;
+        padding-left: 3rem;
+
+    }
+
+    .text-project3 .item-3 {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 25px;
+        letter-spacing: 0.11em;
+        padding-left: 3rem;
+    }
+
+    /* /PROJECTS 3 */
+
+
+    /* /PROJECTS 4 */
+    .text-project4 .col_4 {
+        width: 83.06%;
+        order: 2;
+        padding-left: 3rem;
+    }
+
+    .text-project4 .col_6 {
+        width: 83.06%;
+        order: 1;
+        padding-left: 0rem;
+    }
+
+    /* /PROJECTS 4 */
+
+    /* FOOTER */
+    .footer {
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+    }
+
+    .footer .text {
+        font-size: 10px;
+    }
+
+    .footer .image-container {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+
+    .footer .image-container img {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+
+    /* /FOOTER */
+}
+
+/* /TABLET */
+
+/* MOBILE */
+@media only screen and (max-width: 765px) {
+
+    /* HEADER */
+
+    .header .logo {
+        font-size: 9px;
+    }
+
+    .header a {
+        padding: 0.4rem;
+        font-size: 7px;
+    }
+
+    /* /HEADER */
+
+    /* BANNER */
+    .banner {
+        padding-top: 1rem;
+    }
+
+    .banner .item-1 {
+        font-size: 43px;
+        line-height: 60px;
+        letter-spacing: 0.105em;
+    }
+
+    .banner .item-2 {
+        font-size: 43px;
+        line-height: 60px;
+        letter-spacing: 0.105em;
+        -webkit-text-stroke: 1px #1b1b1b;
+    }
+
+    /* /BANNER */
+    /* FOOTER */
+    .footer .text {
+        font-size: 10px;
+    }
+
+    .footer .image-container {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+
+    .footer .image-container img {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+
+    /* /FOOTER */
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 765px) {
+    /* HEADER */
+
+    .header .logo {
+        font-size: 9px;
+    }
+
+    .header a {
+        padding: 0.4rem;
+        font-size: 7px;
+    }
+
+    .header .header-right {
+        padding-right: 2rem;
+        padding-top: 7px;
+    }
+
+    /* /HEADER */
+
+    /* BANNER */
+    .banner {
+        padding-top: 0rem;
+    }
+
+    .banner .item-2 {
+        line-height: 33px;
+    }
+
+    /* /BANNER */
+
+    /* PROJECTS 1 */
+    .image-project1 {
+        padding-top: 1rem;
+    }
+
+    .text-project1 .col_4 {
+        width: 83.06%;
+    }
+
+    .text-project1 .item-1 {
+        font-size: 18px;
+        line-height: 33px;
+    }
+
+    .text-project1 .item-2 {
+        font-size: 18px;
+        letter-spacing: 0.18em;
+    }
+
+    .text-project1 .item-3 {
+        font-size: 8px;
+        line-height: 16px;
+    }
+
+    /* /PROJECTS 1 */
+
+
+    /* PROJECTS 2 */
+    .image-project2 {
+        padding-top: 1rem;
+    }
+
+    .text-project2 {
+        padding-top: 1rem;
+    }
+
+    .text-project2 .col_4 {
+        padding-left: 23px;
+        width: 83.06%;
+    }
+
+    .text-project2 .col_6 {
+        width: 83.06%;
+    }
+
+    .text-project2 .item-1 {
+        font-size: 18px;
+        line-height: 33px;
+    }
+
+    .text-project2 .item-2 {
+        font-size: 18px;
+        letter-spacing: 0.18em;
+    }
+
+    .text-project2 .item-3 {
+        font-size: 8px;
+        line-height: 16px;
+    }
+
+    /* /PROJECTS 2 */
+
+    /* PROJECTS 3 */
+    .image-project3 {
+        padding-top: 1rem;
+    }
+
+    .text-project3 {
+        padding-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .text-project3 .col_4 {
+        padding-left: 26px;
+        width: 83.06%;
+        order: 2;
+    }
+
+    .text-project3 .col_6 {
+        width: 83.06%;
+        order: 1;
+        padding-left: 25px;
+    }
+
+    .text-project3 .item-1 {
+        font-size: 18px;
+        line-height: 33px;
+    }
+
+    .text-project3 .item-2 {
+        font-size: 18px;
+        letter-spacing: 0.18em;
+    }
+
+    .text-project3 .item-3 {
+        font-size: 8px;
+        line-height: 16px;
+    }
+
+    /* /PROJECTS 3 */
+
+    /* PROJECTS 4 */
+    .image-project4 {
+        padding-top: 1rem;
+    }
+
+    .text-project4 {
+        padding-top: 1rem;
+    }
+
+    .text-project4 .col_4 {
+        padding-left: 23px;
+        width: 83.06%;
+    }
+
+    .text-project4 .col_6 {
+        width: 83.06%;
+    }
+
+    .text-project4 .item-1 {
+        font-size: 18px;
+        line-height: 33px;
+    }
+
+    .text-project4 .item-2 {
+        font-size: 18px;
+        letter-spacing: 0.18em;
+    }
+
+    .text-project4 .item-3 {
+        font-size: 8px;
+        line-height: 16px;
+    }
+
+    /* /PROJECTS 4 */
+
+    /* FOOTER */
+    .footer {
+        padding-top: 1rem;
+    }
+
+    .footer .text {
+        font-size: 5px;
+    }
+
+    /* /FOOTER */
+    /* /MOBILE */
+}

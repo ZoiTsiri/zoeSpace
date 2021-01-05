@@ -43,8 +43,8 @@
 .banner {
     display: flex;
     background-color: white;
-    letter-spacing: 0.085em;
     font-weight: 500;
+    padding-top: 4rem;
 }
 
 
@@ -53,6 +53,7 @@
     line-height: 124px;
     font-size: 145px;
     color: white;
+    letter-spacing: 0.085em;
     -webkit-text-stroke: 2px #1b1b1b;
 }
 
@@ -60,6 +61,7 @@
     font-family: 'Kanit', sans-serif;
     font-size: 145px;
     line-height: 124px;
+    letter-spacing: 0.085em;
     color: #1b1b1b;
 }
 
@@ -67,6 +69,7 @@
 /*  RESUME */
 .resume {
     display: flex;
+    padding-bottom: 10rem;
 
 }
 
@@ -75,12 +78,17 @@
     color: #1b1b1b;
     font-weight: 300;
     font-size: 24px;
-    letter-spacing: 0.001em;
+    letter-spacing: 0.01em;
     line-height: 38px;
 }
 
 /*  /RESUME */
+
 /*  WHAT I DO */
+.whatIdo {
+    display: flex;
+    padding-bottom: 5rem;
+}
 
 .whatIdo .item-1 {
     font-family: 'Kanit', sans-serif;
@@ -94,12 +102,11 @@
 /*  /WHAT I DO */
 
 /*  AUTHENTICITY */
-
 .authenticity .item-1 {
     font-family: 'Kanit', sans-serif;
     color: #1b1b1b;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 19px;
     letter-spacing: 0.31em;
     line-height: 208%;
     text-decoration-line: underline;
@@ -117,14 +124,25 @@
 }
 
 /*  /AUTHENTICITY */
+
 /*  CONTACT */
+.contact-circle {
+    text-align: center;
+    border-radius: 50%;
+    background-color: #1b1b1b;
+    color: white;
+}
 
 /*  /CONTACT */
+
 /* FOOTER */
 .footer {
     display: flex;
     background-color: white;
+}
 
+.footer .image-container {
+    text-align: center;
 }
 
 .footer .text {
@@ -136,3 +154,221 @@
 }
 
 /* /FOOTER */
+
+/* TABLET */
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+
+    /* HEADER */
+    .header .logo {
+        font-size: 17px;
+    }
+
+    .header a {
+        font-size: 15px;
+    }
+    .header .header-right {
+        padding-right: 5rem;
+    }
+
+    /* /HEADER */
+
+    /* BANNER */
+    .banner {
+        padding-top: 2rem;
+    }
+
+    .banner .item-1 {
+        font-size: 67px;
+        line-height: 66px;
+    }
+
+    .banner .item-2 {
+        line-height: 66px;
+        font-size: 52px;
+    }
+
+    .banner .image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* /BANNER */
+
+    /* RESUME */
+    .resume {
+        padding-top: 0.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .resume .item-1 {
+        font-size: 14px;
+    }
+
+    /* /RESUME */
+
+    /* WHATIDO  */
+    .whatIdo {
+        display: flex;
+        padding-bottom: 2rem;
+    }
+
+    .whatIdo .item-1 {
+        font-size: 21px;
+        letter-spacing: 0.09em;
+        line-height: 34px;
+    }
+
+    /* /WHATIDO */
+
+    /*  AUTHENTICITY */
+    .authenticity .col_3 {
+        width: 49.2%;
+    }
+
+    .authenticity .item-1 {
+        font-size: 17px;
+        text-decoration-line: underline;
+    }
+
+    .authenticity .item-2 {
+        font-size: 13px;
+        letter-spacing: 0.16em;
+        line-height: 190%;
+    }
+    /*  /AUTHENTICITY */
+
+    /* FOOTER */
+    .footer .text {
+        font-size: 10px;
+    }
+
+    .footer .image-container {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    
+    .footer .image-container img {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    /* /FOOTER */
+}
+
+/* /TABLET */
+
+/* MOBILE */
+@media only screen and (max-width: 765px) {
+
+    /* HEADER */
+
+    .header .logo {
+        font-size: 9px;
+    }
+
+    .header a {
+        padding: 0.4rem;
+        font-size: 7px;
+    }
+
+    .header .header-right {
+        padding-right: 2rem;
+        padding-top: 7px;
+    }
+
+    /* /HEADER */
+
+    /* BANNER */
+
+    .banner {
+        padding-top: 1rem;
+    }
+
+    .banner .item-1 {
+        font-size: 43px;
+        line-height: 44px;
+        -webkit-text-stroke: 1px #1b1b1b;
+    }
+
+    .banner .item-2 {
+        line-height: 44px;
+        font-size: 35px;
+    }
+
+    .banner .image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* /BANNER */
+
+    /* RESUME */
+
+    .resume {
+        padding-bottom: 0rem;
+    }
+
+    .resume .col_4 {
+        width: 49.2%;
+    }
+
+    .resume .image {
+        padding-top: 4.45rem;
+    }
+
+    .resume .item-1 {
+        font-size: 8px;
+        line-height: 16px;
+        letter-spacing: 0.01em;
+    }
+
+    .resume .more-info div {
+        font-size: 4px;
+    }
+
+    /* /RESUME */
+
+    /* WHAT I DO */
+
+    .whatIdo {
+        padding-bottom: 0rem;
+    }
+
+    .whatIdo .item-1 {
+        font-size: 11px;
+        letter-spacing: 0.04em;
+        line-height: 25px;
+    }
+
+    /* /WHAT I DO */
+
+    /* AUTHENTICITY */
+
+    .authenticity{
+        padding-top: 1rem;
+    }
+
+    .authenticity .col_3 {
+        width: 49.2%;
+    }
+
+    .authenticity .item-1 {
+        font-size: 9px;
+    }
+
+    .authenticity .item-2 {
+        font-size: 7px;
+        line-height: 190%;
+        letter-spacing: 0.16em;
+    }
+
+    /* /AUTHENTICITY */
+    
+  /* FOOTER */
+  .footer .text {
+      font-size: 5px;
+  }
+
+  /* /FOOTER */
+
+    /* /MOBILE */
+}

@@ -1,0 +1,133 @@
+/* HEADER */
+.header {
+    display: flex;
+
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.header .logo {
+    font-weight: 700;
+    font-size: 33px;
+    letter-spacing: -0.06em;
+}
+
+
+.header a {
+    color: #1b1b1b;
+    padding: 1rem;
+    border-radius: 4px;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: none;
+    background-color: #ddd;
+    color: #1b1b1b;
+}
+
+.header .header-right {
+    line-height: 0%;
+    display: inherit;
+    font-weight: 500;
+    background-color: white;
+}
+
+
+/* /HEADER */
+
+/* BANNER */
+.banner {
+    display: flex;
+    background-color: #1b1b1b;
+    letter-spacing: 0.135em;
+    font-weight: 500;
+}
+
+.banner .item-1 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 174px;
+    line-height: 183px;
+    letter-spacing: 0.135em;
+    color: #1b1b1b;
+    -webkit-text-stroke: 2px white;
+}
+
+.banner .item-2 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 174px;
+    line-height: 183px;
+    letter-spacing: 0.135em;
+    color: white;
+    -webkit-text-stroke: 2px white;
+
+}
+
+/* /BANNER */
+
+
+/* FORM */
+
+.form {
+    padding-bottom: 10rem;
+    display: flex;
+    background-color: #1b1b1b;
+    letter-spacing: 0.135em;
+    font-weight: 300;
+}
+
+
+.form .item-1 {
+    font-family: 'Kanit', sans-serif;
+    line-height: 90px;
+    font-size: 33px;
+    color: white;
+    letter-spacing: 0.12em;
+
+}
+
+.form .item-1 input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    text-align: center;
+    font-size: 36px;
+}
+
+.form .item-1 .comments {
+    width: 100%;
+}
+
+.form .send-button {
+    text-align: center;
+    background-color: white;
+    border-radius: 130px;
+    height: 25px;
+    padding-top: 5px;
+}
+
+
+/* /FORM */
+
+/* FOOTER */
+.footer {
+    display: flex;
+    background-color: white;
+
+}
+
+.footer .text {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: -0.015em;
+    align-self: flex-end;
+}
+
+/* /FOOTER */
