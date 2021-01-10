@@ -312,6 +312,10 @@
     /* /HEADER */
 
     /* BANNER */
+    .banner{
+        padding-top: 2rem;
+    }
+    
     .banner .item-1 {
         font-size: 43px;
         line-height: 44px;

@@ -37,21 +37,19 @@
     background-color: white;
 }
 
-
 /* /HEADER */
 
 /* BANNER */
 .banner {
     display: flex;
     background-color: #1b1b1b;
-    letter-spacing: 0.135em;
     font-weight: 500;
 }
 
 .banner .item-1 {
     font-family: 'Kanit', sans-serif;
     font-weight: 500;
-    font-size: 174px;
+    font-size: 170px;
     line-height: 183px;
     letter-spacing: 0.135em;
     color: #1b1b1b;
@@ -61,7 +59,7 @@
 .banner .item-2 {
     font-family: 'Kanit', sans-serif;
     font-weight: 500;
-    font-size: 174px;
+    font-size: 170px;
     line-height: 183px;
     letter-spacing: 0.135em;
     color: white;
@@ -73,7 +71,6 @@
 
 
 /* FORM */
-
 .form {
     padding-bottom: 10rem;
     display: flex;
@@ -86,7 +83,7 @@
 .form .item-1 {
     font-family: 'Kanit', sans-serif;
     line-height: 90px;
-    font-size: 33px;
+    font-size: 28px;
     color: white;
     letter-spacing: 0.12em;
 
@@ -97,7 +94,7 @@
     border: none;
     border-bottom: 1px solid white;
     text-align: center;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .form .item-1 .comments {
@@ -111,7 +108,6 @@
     height: 25px;
     padding-top: 5px;
 }
-
 
 /* /FORM */
 
@@ -131,3 +127,182 @@
 }
 
 /* /FOOTER */
+
+
+/* TABLET */
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+
+    /* HEADER */
+    .header .logo {
+        font-size: 17px;
+    }
+
+    .header a {
+        font-size: 15px;
+    }
+
+    .header .header-right {
+        padding-right: 5rem;
+    }
+
+    /* /HEADER */
+
+    /* BANNER */
+    .banner {
+        padding-top: 1rem;
+    }
+
+    .banner .item-1 {
+        font-size: 91px;
+        line-height: 91px;
+    }
+
+    .banner .item-2 {
+        font-size: 91px;
+        line-height: 91px;
+    }
+
+    .banner .image-container img {
+        height: 41px;
+    }
+
+    /* /BANNER */
+
+    /* FORM */
+    .form .item-1 {
+        font-size: 16px;
+
+    }
+
+    .form .item-1 input {
+        font-size: 16px;
+    }
+
+    .form .col_send {
+        width: 40.73%;
+    }
+
+    .form {
+        padding-bottom: 4rem;
+    }
+
+    /* /FORM */
+
+    /* FOOTER */
+    .footer .text {
+        font-size: 10px;
+    }
+
+    .footer .image-container {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    
+    .footer .image-container img {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+
+    /* /FOOTER */
+}
+
+/* /TABLET */
+
+/* MOBILE */
+@media only screen and (max-width: 765px) {
+
+    /* HEADER */
+
+    .header .logo {
+        font-size: 9px;
+    }
+
+    .header a {
+        padding: 0.4rem;
+        font-size: 7px;
+    }
+
+    .header .header-right {
+        padding-right: 2rem;
+        padding-top: 7px;
+    }
+
+    /* /HEADER */
+
+    /* BANNER */
+    .banner {
+        padding-top: 1rem;
+    }
+
+    .banner .item-1 {
+        font-size: 43px;
+        line-height: 55px; 
+        -webkit-text-stroke: 1px white;   
+    }
+
+    .banner .item-2 {
+        font-size: 43px;
+        line-height: 55px;    
+        -webkit-text-stroke: 1px white; 
+    }
+
+    .banner .image-container img {
+        height: 24px;
+    }
+
+    /* /BANNER */
+
+    /* FORM */
+    .form .item-1 {
+        font-size: 7px;
+        line-height: 30px;
+    }
+
+    .form .item-1 input {
+        font-size: 7px;
+    }
+
+    .form .col_send {
+        padding-top: 1rem;
+        width: 40.73%;
+    }
+
+    .form {
+        padding-top: 1rem;
+    }
+
+    .form .send-button-section {
+        padding-top: 1rem;
+    }
+
+    .form .send-button-section .send-button {
+        font-size: 9px;
+        height: 19px;
+        padding-top: 8px;
+    }
+
+  
+    .form {
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+
+    /* /FORM */
+
+     /* FOOTER */
+  .footer .text {
+    font-size: 5px;
+}
+
+.footer .image-container {
+    display: flex;
+    flex-flow: column-reverse;
+}
+
+.footer .image-container img {
+    display: flex;
+    flex-flow: column-reverse;
+}
+
+/* /FOOTER */
+}
