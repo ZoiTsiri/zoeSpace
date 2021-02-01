@@ -21,7 +21,7 @@
         <div class="col col_1">
         </div>
         <div class="col col_2">
-            <a href="index.html" class="logo">ZOEYSPACE</a>
+            <a href="index.html" class="logo">ZOOEYSPACE</a>
         </div>
         <div class="col col_3">
         </div>
@@ -67,6 +67,7 @@
 
     <!-- FORM -->
     <div class="form section">
+        <form action="" id="contactForm" name="contactForm">
         <div class="col col_2">
         </div>
         <div class="col col_7">
@@ -76,32 +77,33 @@
                         <table>
                             <tr>
                                 <td>
-                                    My name is  <input type="text" name="name" placeholder="Name"> and I
+                                    My name is <input type="text" name="name" id="name" placeholder="Name" required> and I
                                     need
                                 </td>
                             </tr>
                             <tr>
-                                <td> <input type="text" name="info" placeholder="General Info"> Could you send me an
+                                <td> <input type="text" name="info" id="info" placeholder="General Info" required> Could you send
+                                    me an
                                 </td>
                             </tr>
                             <tr>
-                                <td>email at <input type="text" name="email" placeholder="Email"> .</td>
+                                <td>email at <input type="text" name="email" id="email" placeholder="Email" required> .</td>
                             </tr>
                             <tr>
-                                <td> <input type="text" name="comments" placeholder="Comments" class="comments"></td>
+                                <td> <input type="text" name="comments" id="comments" placeholder="Comments"
+                                        class="comments" required></td>
                             </tr>
                         </table>
                     </div>
                 </div>
             </div>
-                <div class="section send-button-section">
+            <div class="section send-button-section">
                 <div class="col col_3 col_send">
                 </div>
                 <div class="col col_2">
-                    <div class="send-button">Send</div>
+                    <div type="submit" value="submit" class="send-button">Send</div>
                 </div>
                 <div class="col col_7">
-
                 </div>
             </div>
         </div>
@@ -109,6 +111,7 @@
         </div>
         <div class="col col_1">
         </div>
+    </form>
     </div>
     <!-- /FORM -->
 
@@ -136,3 +139,6 @@
     </div>
     <!-- /FOOTER -->
 </body>
+<script src="js/contact.js"></script>
+
+</html>

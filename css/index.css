@@ -166,8 +166,11 @@
 }
 
 .recent-projects .projects div {
-    max-width: 100%;
-    height: auto;
+    /* max-width: 100%;
+    height: auto; */
+    background-color: white;
+    width: 21.375rem;
+    height: 21.375rem;
 }
 
 /* /RECENT PROJECTS */

@@ -127,10 +127,19 @@
 
 /*  CONTACT */
 .contact-circle {
-    text-align: center;
+    position: relative;
+    width: 100px;
+    height: 95px;
+    margin: auto;
     border-radius: 50%;
     background-color: #1b1b1b;
     color: white;
+}
+
+.contact-circle .contact-circle-text {
+    position: absolute;
+    top: 2.5rem;
+    left: 0.85rem;
 }
 
 /*  /CONTACT */
@@ -166,6 +175,7 @@
     .header a {
         font-size: 15px;
     }
+
     .header .header-right {
         padding-right: 5rem;
     }
@@ -235,7 +245,19 @@
         letter-spacing: 0.16em;
         line-height: 190%;
     }
+
     /*  /AUTHENTICITY */
+
+    /*  CONTACT */
+    .contact-circle {
+        width: 70px;
+        height: 65px;
+    }
+    .contact-circle .contact-circle-text {
+        top: 1.86rem;
+        font-size: 10px;
+    }
+    /* /CONTACT */
 
     /* FOOTER */
     .footer .text {
@@ -246,11 +268,12 @@
         display: flex;
         flex-flow: column-reverse;
     }
-    
+
     .footer .image-container img {
         display: flex;
         flex-flow: column-reverse;
     }
+
     /* /FOOTER */
 }
 
@@ -343,7 +366,7 @@
 
     /* AUTHENTICITY */
 
-    .authenticity{
+    .authenticity {
         padding-top: 1rem;
     }
 
@@ -362,13 +385,35 @@
     }
 
     /* /AUTHENTICITY */
-    
-  /* FOOTER */
-  .footer .text {
-      font-size: 5px;
-  }
 
-  /* /FOOTER */
+        /*  CONTACT */
+        .contact-circle {
+            width: 35px;
+            height: 30px;
+        }
+        .contact-circle .contact-circle-text {
+            top: 0.8rem;
+            left: 0.4rem;
+            font-size: 5px;
+        }
+        /* /CONTACT */
+
+    /* FOOTER */
+    .footer .text {
+        font-size: 5px;
+    }
+
+    .footer .image-container {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+
+    .footer .image-container img {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+
+    /* /FOOTER */
 
     /* /MOBILE */
 }
