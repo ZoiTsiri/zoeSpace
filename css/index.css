@@ -130,6 +130,12 @@
     font-size: 18px;
     text-align: center;
     letter-spacing: 0.17em;
+    
+}
+a:-webkit-any-link {
+    text-decoration: none;
+    color: #1b1b1b;
+    cursor: pointer;
 }
 
 /* /RESUME */
@@ -174,6 +180,14 @@
 }
 
 /* /RECENT PROJECTS */
+
+/* SVG */
+.svg .image-container {
+    display: flex;
+    flex-flow: column-reverse;
+    padding-top: 10px;
+}
+/* /SVG */
 
 /* FOOTER */
 .footer {
@@ -282,6 +296,14 @@
 
     /* /RECENT PROJECTS */
 
+    /* SVG */
+.svg .image-container {
+    width: 129px;
+    height: 144px;
+}
+/* /SVG */
+
+
     /* FOOTER */
     .footer .text {
         font-size: 10px;
@@ -379,8 +401,18 @@
         width: 5.6875rem;
         height: 5.9375rem;
     }
-
+    .recent-projects .item-2 {
+        -webkit-text-stroke: 1px white;
+    }
     /* /RECENT PROJECTS */
+
+    /* SVG */
+.svg .image-container {
+    width: 69px;
+    height: 76px;
+}
+/* /SVG */
+
 
     /* FOOTER */
     .footer .text {

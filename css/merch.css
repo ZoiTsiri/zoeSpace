@@ -46,9 +46,8 @@
 }
 
 .merch1 .image-container {
-    border: 1px solid black;
     width: 100%;
-    height: 20rem;
+    height: auto;
 }
 
 .merch1 .item-1 {
@@ -184,10 +183,6 @@
 
 }
 
-.merch2 .item {
-    border: 1px solid black;
-    height: 20rem;
-}
 
 .merch2 .quantity {
     padding-top: 0.4rem;

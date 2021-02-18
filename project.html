@@ -8,6 +8,10 @@
     <title>Zoe Tsiri Place</title>
     <link rel="stylesheet" href="css/styleguide.css">
     <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="css/images.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;500&display=swap" rel="stylesheet">
@@ -63,8 +67,20 @@
         <div class="col col_1">
         </div>
         <div class="col col_10">
-            <div class="image-container">
-                <img src="" alt="image">
+            <div class="image-container1">
+                <div class="image__item1 image__item1--visible1 image-container-1">
+                    <img src="images/Forest.jpg" alt="image">
+                </div>
+
+                <div class="image__item1 image-container-1">
+                    <img src="images/Night.jpg" alt="image">
+                </div>
+                <div class="image__actions1">
+                    <button id="image__button--prev1" aria-label="Previous slide"><i
+                            class="fas fa-chevron-left"></i></button>
+                    <button id="image__button--next1" aria-label="Next slide"><i
+                            class="fas fa-chevron-right"></i></button>
+                </div>
             </div>
         </div>
         <div class="col col_1">
@@ -96,9 +112,26 @@
         <div class="col col_1">
         </div>
         <div class="col col_6">
-            <div class="image-container">
-                <img src="" alt="image">
-            </div>
+            <div class="image-container2">
+                <div class="image__item2 image__item2--visible2 image-container-2">
+                    <img src="images/Calendar1.png" alt="image">
+                </div>
+
+                <div class="image__item2 image-container-2">
+                    <img src="images/Calendar2.png" alt="image">
+                </div>
+                <div class="image__item2 image-container-2">
+                    <img src="images/Calendar3.png" alt="image">
+                </div>
+                <div class="image__item2 image-container-2">
+                    <img src="images/Calendar4.png" alt="image">
+                </div>
+                <div class="image__actions2">
+                    <button id="image__button--prev2" aria-label="Previous slide"><i
+                            class="fas fa-chevron-left"></i></button>
+                    <button id="image__button--next2" aria-label="Next slide"><i
+                            class="fas fa-chevron-right"></i></button>
+                </div>
         </div>
         <div class="col col_4">
             <div class="item-1">Project 2 of 4</div>
@@ -123,6 +156,20 @@
     <div class="text-project3 section">
         <div class="col col_1">
         </div>
+        <div class="col col_6">
+             <div class="image-container3">
+                <div class="image__item3 image__item3--visible3 image-container-3">
+                    <img src="images/Collage.png" alt="image">
+                </div>
+                <div class="image__actions3">
+                    <button id="image__button--prev3" aria-label="Previous slide"><i
+                            class="fas fa-chevron-left"></i></button>
+                    <button id="image__button--next3" aria-label="Next slide"><i
+                            class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+            
+        </div>
         <div class="col col_4">
             <div class="item-1">Project 3 of 4</div>
             <div class="item-2">ART COLLAGE</div>
@@ -131,11 +178,6 @@
                     egestas mi maecenas pellentesque.
                     Id aliquet molestie dolor nisl at eu. Auctor amet, nunc, habitant adipiscing massa congue
                     pellentesque quisque. Sagittis sit nulla eu at faucibus tincidunt vel.</div>
-            </div>
-        </div>
-        <div class="col col_6">
-            <div class="image-container">
-                <img src="" alt="image">
             </div>
         </div>
         <div class="col col_1">
@@ -148,9 +190,20 @@
         <div class="col col_1">
         </div>
         <div class="col col_6">
-            <div class="image-container">
-                <img src="" alt="image">
-            </div>
+            <div class="image-container4">
+                <div class="image__item4 image__item4--visible4 image-container-4">
+                    <img src="images/Logo-Gustav.png" alt="image">
+                </div>
+
+                <div class="image__item4 image-container-4">
+                    <img src="images/Logo-GCSEN.png" alt="image">
+                </div>
+                <div class="image__actions4">
+                    <button id="image__button--prev4" aria-label="Previous slide"><i
+                            class="fas fa-chevron-left"></i></button>
+                    <button id="image__button--next4" aria-label="Next slide"><i
+                            class="fas fa-chevron-right"></i></button>
+                </div>
         </div>
         <div class="col col_4">
             <div class="item-1">Project 4 of 4</div>
@@ -192,3 +245,8 @@
         </div>
     </div>
     <!-- /FOOTER -->
+</body>
+<script src="js/project-image-container-1.js"></script>
+<script src="js/project-image-container-2.js"></script>
+<script src="js/project-image-container-3.js"></script>
+<script src="js/project-image-container-4.js"></script>

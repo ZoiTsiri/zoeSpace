@@ -72,9 +72,8 @@
 }
 
 .image-project1 .image-container {
-    border: 1px solid black;
     width: 100%;
-    height: 20rem;
+    /* height: 20rem; */
 }
 
 /* /IMAGEPROJECT1 */
@@ -151,10 +150,9 @@
     letter-spacing: 0.11em;
 }
 
-.text-project2 .image-container {
-    border: 1px solid black;
+.text-project2 .image-container2 {
     width: 100%;
-    height: 20rem;
+    /* height: 20rem; */
 }
 
 /* /PROJECT2 */
@@ -209,9 +207,8 @@
 }
 
 .text-project3 .image-container {
-    border: 1px solid black;
     width: 100%;
-    height: 20rem;
+    /* height: 20rem; */
 }
 
 /* /PROJECT3 */
@@ -253,9 +250,8 @@
 
 
 .text-project4 .image-container {
-    border: 1px solid black;
     width: 100%;
-    height: 20rem;
+    /* height: 20rem; */
 }
 
 /* /PROJECT4 */
@@ -368,7 +364,6 @@
 
     .text-project2 .item-1 {
         line-height: 50px;
-        padding-left: 3rem;
 
     }
 
@@ -377,7 +372,6 @@
         font-size: 24px;
         line-height: 38px;
         letter-spacing: 0.28em;
-        padding-left: 3rem;
     }
 
     .text-project2 .item-3 {
@@ -385,7 +379,7 @@
         font-size: 14px;
         line-height: 25px;
         letter-spacing: 0.11em;
-        padding-left: 3rem;
+
     }
 
     /* /PROJECTS 2 */
@@ -419,7 +413,6 @@
     .text-project3 .item-1 {
         line-height: 50px;
         padding-left: 3rem;
-
     }
 
     .text-project3 .item-2 {
@@ -428,7 +421,6 @@
         line-height: 38px;
         letter-spacing: 0.28em;
         padding-left: 3rem;
-
     }
 
     .text-project3 .item-3 {
@@ -446,7 +438,6 @@
     .text-project4 .col_4 {
         width: 83.06%;
         order: 2;
-        padding-left: 3rem;
     }
 
     .text-project4 .col_6 {
@@ -604,7 +595,7 @@
     }
 
     .text-project2 .col_4 {
-        padding-left: 23px;
+        padding-left: 0px;
         width: 83.06%;
     }
 
@@ -679,7 +670,7 @@
     }
 
     .text-project4 .col_4 {
-        padding-left: 23px;
+        padding-left: 0px;
         width: 83.06%;
     }
 

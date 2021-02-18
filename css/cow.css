@@ -1,0 +1,82 @@
+#cow{
+    animation: cow 1.5s infinite ease alternate;
+}
+
+@keyframes cow {
+    0% {
+        transform: translateY();
+    }
+    100% {
+        transform: translateY(-50px);
+    }
+
+}
+
+/*#scrollup{
+    animation: scrollup 1.5s infinite alternate;
+    animation-delay: 1.5s;
+}
+
+@keyframes scrollup {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}*/
+/*
+#Vector_12,
+#Vector_13,
+#Vector_15
+{
+    animation: color 1s infinite alternate;
+}
+
+@keyframes color {
+    10% {
+        fill: rgb(255, 255, 255);
+    }
+    50%{
+        fill: #272727;
+    }
+    100% {
+        fill: #272727;
+    }
+}
+
+#Vector_14,
+#Vector_16
+{   
+    animation: theother 1s infinite alternate;
+    animation-delay: 1s;
+}
+
+@keyframes theother {
+    10% {
+        fill: rgb(255, 255, 255);
+    }
+ 50%{
+     fill: #272727;
+ }
+    100% {
+        fill: #272727;
+    }
+}
+*/
+
+#Vector_11
+{
+    animation: color 1.5s infinite alternate;
+    animation-delay: 1.5s;
+}
+
+@keyframes color {
+    60% {
+        fill: rgb(255, 255, 255);
+    }
+    100% {
+        fill: #313131;
+    }
+}
