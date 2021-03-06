@@ -1,0 +1,17 @@
+/* WHAT I DO */
+.whatIdo img {
+    animation: hand 1.5s infinite ease alternate;
+}
+
+@keyframes hand {
+    0% {
+        transform: translateY();
+    }
+
+    100% {
+        transform: translateY(-50px);
+    }
+
+}
+
+/* /WHAT I DO */

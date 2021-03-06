@@ -1,0 +1,75 @@
+/* BANNER */
+#Vector_11 {
+    animation: color 1.5s infinite alternate;
+    animation-delay: 1.5s;
+}
+
+@keyframes color {
+    60% {
+        fill: rgb(255, 255, 255);
+    }
+
+    100% {
+        fill: #313131;
+    }
+}
+
+.arrow-image {
+    animation: arrow 1.5s infinite ease alternate;
+}
+
+@keyframes arrow {
+    0% {
+        transform: translateY();
+    }
+
+    100% {
+        transform: translateY(-30px);
+    }
+
+}
+/* /BANNER */
+
+/* RECENT PROJECTS */
+.recent-effect:hover img {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+}
+
+@-webkit-keyframes flash {
+    0% {
+        opacity: .4;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes flash {
+    0% {
+        opacity: .4;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+/* /RECENT PROJECTS */
+
+/* SVG */
+#cow {
+    animation: cow 1.5s infinite ease alternate;
+}
+
+@keyframes cow {
+    0% {
+        transform: translateY();
+    }
+
+    100% {
+        transform: translateY(-50px);
+    }
+}
+/* /SVG */

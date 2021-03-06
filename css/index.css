@@ -124,18 +124,19 @@
 
 .resume .more-info div {
     padding: 0.4rem;
-
     font-family: 'Kanit', sans-serif;
     color: #1b1b1b;
     font-size: 18px;
     text-align: center;
     letter-spacing: 0.17em;
-    
-}
-a:-webkit-any-link {
     text-decoration: none;
+
+}
+
+a:-webkit-any-link {
     color: #1b1b1b;
     cursor: pointer;
+    text-decoration: none;
 }
 
 /* /RESUME */
@@ -179,14 +180,29 @@ a:-webkit-any-link {
     height: 21.375rem;
 }
 
+.recent-projects .projects div img {
+    height: 100%;
+}
+
 /* /RECENT PROJECTS */
 
 /* SVG */
+
+.button {
+    all: unset;
+}
+
+#btnScrollToTop {
+    all: unset;
+}
+
 .svg .image-container {
     display: flex;
     flex-flow: column-reverse;
     padding-top: 10px;
 }
+
+
 /* /SVG */
 
 /* FOOTER */
@@ -219,14 +235,15 @@ a:-webkit-any-link {
 /* TABLET */
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
 
-     /* HEADER */
-     .header .logo {
+    /* HEADER */
+    .header .logo {
         font-size: 17px;
     }
 
     .header a {
         font-size: 15px;
     }
+
     .header .header-right {
         padding-right: 5rem;
     }
@@ -297,11 +314,12 @@ a:-webkit-any-link {
     /* /RECENT PROJECTS */
 
     /* SVG */
-.svg .image-container {
-    width: 129px;
-    height: 144px;
-}
-/* /SVG */
+    .svg .image-container {
+        width: 129px;
+        height: 144px;
+    }
+
+    /* /SVG */
 
 
     /* FOOTER */
@@ -316,7 +334,7 @@ a:-webkit-any-link {
 
 /* MOBILE */
 @media only screen and (max-width: 765px) {
-    
+
 
     /* HEADER */
     .header .logo {
@@ -337,10 +355,10 @@ a:-webkit-any-link {
     /* /HEADER */
 
     /* BANNER */
-    .banner{
+    .banner {
         padding-top: 2rem;
     }
-    
+
     .banner .item-1 {
         font-size: 43px;
         line-height: 44px;
@@ -401,17 +419,20 @@ a:-webkit-any-link {
         width: 5.6875rem;
         height: 5.9375rem;
     }
+
     .recent-projects .item-2 {
         -webkit-text-stroke: 1px white;
     }
+
     /* /RECENT PROJECTS */
 
     /* SVG */
-.svg .image-container {
-    width: 69px;
-    height: 76px;
-}
-/* /SVG */
+    .svg .image-container {
+        width: 69px;
+        height: 76px;
+    }
+
+    /* /SVG */
 
 
     /* FOOTER */

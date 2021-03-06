@@ -152,6 +152,7 @@
 
 .text-project2 .image-container2 {
     width: 100%;
+    border: 1px solid rgb(146, 146, 146);
     /* height: 20rem; */
 }
 
@@ -349,11 +350,20 @@
 
 
     /* PROJECTS 2 */
+    .text-project2 {
+        display: flex;
+        flex-direction: column;
+    }
+
     .text-project2 .col_4 {
+        order: 2;
+        margin-left: 4rem;
         width: 83.06%;
     }
 
     .text-project2 .col_6 {
+        order: 1;
+        margin-left: 4rem;
         width: 83.06%;
     }
 
@@ -393,6 +403,10 @@
     .text-project3 {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .text-project3 .col_1.col_1_none {
+        display: none;
     }
 
     .text-project3 .col_4 {
@@ -435,15 +449,21 @@
 
 
     /* /PROJECTS 4 */
+    .text-project4 {
+        display: flex;
+        flex-direction: column;
+    }
+
     .text-project4 .col_4 {
         width: 83.06%;
         order: 2;
+        margin-left: 4rem;
     }
 
     .text-project4 .col_6 {
         width: 83.06%;
         order: 1;
-        padding-left: 0rem;
+        margin-left: 4rem;
     }
 
     /* /PROJECTS 4 */
@@ -524,11 +544,7 @@
     }
 
     /* /FOOTER */
-}
 
-/* MOBILE */
-
-@media only screen and (max-width: 765px) {
     /* HEADER */
 
     .header .logo {
@@ -586,20 +602,26 @@
 
 
     /* PROJECTS 2 */
+
     .image-project2 {
         padding-top: 1rem;
     }
 
     .text-project2 {
+        display: flex;
+        flex-direction: column;
         padding-top: 1rem;
     }
 
     .text-project2 .col_4 {
-        padding-left: 0px;
+        order: 2;
+        margin-left: 2rem;
         width: 83.06%;
     }
 
     .text-project2 .col_6 {
+        order: 1;
+        margin-left: 2rem;
         width: 83.06%;
     }
 
@@ -629,6 +651,10 @@
         padding-top: 1rem;
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .text-project3 .col_1 .col_1_none {
+        display: none;
     }
 
     .text-project3 .col_4 {
@@ -666,15 +692,20 @@
     }
 
     .text-project4 {
+        display: flex;
+        flex-direction: column;
         padding-top: 1rem;
     }
 
     .text-project4 .col_4 {
-        padding-left: 0px;
+        order: 2;
+        margin-left: 2rem;
         width: 83.06%;
     }
 
     .text-project4 .col_6 {
+        order: 1;
+        margin-left: 2rem;
         width: 83.06%;
     }
 
