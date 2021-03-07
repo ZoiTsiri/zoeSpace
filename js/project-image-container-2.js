@@ -1,3 +1,4 @@
+/* PROJECT2 */
 let slidePosition2 = 0;
 const slides2 = document.getElementsByClassName('image-container-2');
 const totalSlides2 = slides2.length;
@@ -41,3 +42,4 @@ function moveToPrevSlide2() {
 
   updateSlidePosition2();
 }
+/* /PROJECT2 */

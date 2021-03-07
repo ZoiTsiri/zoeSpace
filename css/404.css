@@ -1,0 +1,42 @@
+/* TEXT */
+.text .item {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    line-height: 124px;
+    font-size: 145px;
+    letter-spacing: 0.085em;
+    color: #1b1b1b;
+    text-align: center;
+}
+
+/* /TEXT */
+
+/* IMAGE */
+.image .image-container img {
+    max-width: -webkit-fill-available;
+
+}
+
+
+/* /IMAGE */
+
+/* TABLET */
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+
+    .text .item {
+        font-size: 67px;
+        line-height: 66px;
+    }
+}
+
+/* /TABLET */
+
+/* MOBILE */
+@media only screen and (max-width: 765px) {
+    .text .item {
+        font-size: 38px;
+        line-height: 44px;
+    }
+}
+
+/* /MOBILE */

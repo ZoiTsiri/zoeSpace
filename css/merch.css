@@ -128,6 +128,27 @@
     width: 7px;
 }
 
+.merch1 .buy {
+    background-color: #1b1b1b;
+    border-radius: 50px;
+    padding: 0.4rem;
+    margin-top: 3.5rem;
+}
+
+.merch1 .buy div {
+    font-family: Kanit;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+text-decoration: none;
+}
+
 /* /MERCH1 */
 
 /* MERCH2 */
@@ -209,6 +230,25 @@
     padding: 10px;
     width: 7px;
 }
+
+.merch2 .buy {
+    background-color: #1b1b1b;
+    border-radius: 50px;
+    padding: 0.4rem;
+    margin-top: 3.5rem;
+}
+
+.merch2 .buy div {
+    font-family: Kanit;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+
 /* /MERCH2 */
 
 /* QOT */
@@ -217,6 +257,7 @@
     text-align: center;
     padding-top: 5rem;
 }
+
 /* /QOT */
 /* FOOTER */
 .footer {
@@ -249,8 +290,10 @@
     .header a {
         font-size: 15px;
     }
-.header{
-    padding-right: 20%;}
+
+    .header {
+        padding-right: 20%;
+    }
 
     /* /HEADER */
 
@@ -281,6 +324,11 @@
 
     .merch1 .quantity-number {
         padding: 7px;
+    }
+
+    .merch1 .buy {
+        margin-top: 1.5rem;
+        width: 4rem;
     }
 
     /* /MERCH1 */
@@ -315,6 +363,12 @@
 
     }
 
+    .merch2 .buy {
+        margin-top: 1.5rem;
+        width: 4rem;
+    }
+
+
     /* /MERCH2 */
 
     /* FOOTER */
@@ -339,6 +393,7 @@
 
     /* /FOOTER */
 }
+
 /* /TABLET */
 
 /* MOBILE */
@@ -358,6 +413,7 @@
         padding-right: 2rem;
         padding-top: 7px;
     }
+
     /* /HEADER */
 
     /* MERCH1 */
@@ -411,13 +467,19 @@
     .merch1 .items {
         padding-left: 7%;
     }
+    .merch1 .buy {
+        margin-top: 3rem;
+    }
+    .merch1 .buy div {
+        font-size: 8px;
+    }
 
     /* /MERCH1 */
 
     /* MERCH2 */
     .merch2 {
         display: block;
-        
+
     }
 
     .merch2 .item-1 {
@@ -466,26 +528,35 @@
         padding-left: 7%;
     }
 
+    .merch2 .buy {
+        margin-top: 3rem;
+    }
+    .merch2 .buy div {
+        font-size: 8px;
+    }
+    
+
     /* /MERCH2 */
 
     /* FOOTER */
-    .footer{
+    .footer {
         padding-top: 1rem;
     }
 
     .footer .text {
         font-size: 5px;
     }
-    
+
     .footer .image-container {
         display: flex;
         flex-flow: column-reverse;
     }
-    
+
     .footer .image-container img {
         display: flex;
         flex-flow: column-reverse;
     }
+
     /* /FOOTER */
     /* /MOBILE */
 }

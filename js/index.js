@@ -1,3 +1,4 @@
+ /* SVG */ 
 const btnScrollToTop = document.querySelector("#btnScrollToTop");
 btnScrollToTop.addEventListener("click", function(){
     window.scrollTo({
@@ -6,4 +7,6 @@ btnScrollToTop.addEventListener("click", function(){
         behavior:"smooth"
         });
 });
+ /* /SVG */ 
+
 

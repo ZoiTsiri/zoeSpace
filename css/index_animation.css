@@ -28,6 +28,7 @@
     }
 
 }
+
 /* /BANNER */
 
 /* RECENT PROJECTS */
@@ -56,6 +57,7 @@
         opacity: 1;
     }
 }
+
 /* /RECENT PROJECTS */
 
 /* SVG */
@@ -72,4 +74,18 @@
         transform: translateY(-50px);
     }
 }
+
+@media only screen and (max-width: 765px) {
+
+    @keyframes cow {
+        0% {
+            transform: translateY();
+        }
+
+        100% {
+            transform: translateY(-15px);
+        }
+    }
+}
+
 /* /SVG */

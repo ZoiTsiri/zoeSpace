@@ -94,6 +94,12 @@
 
 }
 
+a:-webkit-any-link {
+    color: #1b1b1b;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .resume .item-2 .more-info div {
     font-family: Kanit;
     font-size: 10px;
@@ -101,6 +107,7 @@
     letter-spacing: 0.17em;
     text-transform: uppercase;
     color: white;
+    text-decoration: none;
 }
 
 /*  /RESUME */
@@ -263,6 +270,10 @@
         color: white;
 
     }
+    .resume .item-2 .more-info div{
+        all: unset;
+    }
+  
 
     .resume .more-info div {
         font-size: 10px;
